@@ -1,0 +1,236 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<style>
+
+  .ContenedorMain {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  .ContenedorMain img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover
+  }
+  .aura {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+    animation: pulsar 2s infinite;
+    z-index: 2;
+  }
+
+  @keyframes pulsar {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    }
+    50% {
+      transform: scale(1.2);
+      box-shadow: 0 0 0 10px rgba(0, 188, 212, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 188, 212, 0);
+    }
+  }
+  .PositionCirculo {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    width: 260px;
+  }
+  .PositionPage {
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    outline: 3px solid white;
+    overflow: hidden;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+  }
+  .PositionPage:hover {
+    cursor: pointer;
+    color: #ffffff;
+    width: 150px;
+    gap: 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+  }
+  .mensaje {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* Mostrar el mensaje al hacer hover en aura */
+
+  .mensaje a {
+    margin: 0;
+    text-decoration: none;
+    color: #000;
+  }
+  .mensaje::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 115px;
+    border-right: 14px solid transparent;
+    border-top: 14px solid transparent;
+    border-left: 14px solid transparent;
+    border-bottom: 14px solid white;
+  }
+  .aura:hover {
+    cursor: pointer;
+  }
+</style>
+
+
+<div class="ContenedorMain">
+  <img src="{{ section.settings.image | img_url: '3000x' }}" alt="">
+  {% for block in section.blocks %}
+    {% if block.type == 'product' %}
+      {% assign product = block.settings.productlink | product %}
+      <div class="PositionCirculo " style="top:{{ block.settings.Top}}%;transform: translate(-{{ block.settings.Left}}%, -{{ block.settings.Top }}%);left:{{ block.settings.Left }}%;   ">
+        <div class="aura">.</div><br>
+        <div class="mensaje">
+          <a href="{{ product.url }}">
+            {{ product.title }}</a>
+        </div>
+      </div>
+    {% endif %}
+
+
+
+  {% endfor %}
+  {% for block in section.blocks %}
+    <a
+      href="{{ block.settings.pageurl }}"
+      class="PositionPage"
+      style="top:{{ block.settings.Top2}}%;transform:translate(-{{ block.settings.Left2}}%,-{{ block.settings.Top2 }}%);left:{{ block.settings.Left2 }}%;">
+      {{ block.settings.page }}
+      <i class='bx bx-left-arrow-alt'></i>
+    </a>
+  {% endfor %}
+
+</div>
+
+<script>
+  // Obtenemos todos los elementos con la clase "PositionCirculo"
+  var positionCirculoElements = document.querySelectorAll(".PositionCirculo");
+
+// Iteramos sobre cada elemento "PositionCirculo"
+  positionCirculoElements.forEach(function(positionCirculoElement) {
+
+// Obtenemos el elemento "mensaje" dentro de cada "PositionCirculo"
+    var mensajeElement = positionCirculoElement.querySelector(".mensaje");
+
+// Añadimos el evento "mouseover" a cada "PositionCirculo"
+    positionCirculoElement.addEventListener("mouseover", function() {
+      mensajeElement.style.opacity = "1"; // Mostrar el mensaje
+    });
+
+// Añadimos el evento "mouseout" a cada "PositionCirculo"
+    positionCirculoElement.addEventListener("mouseout", function() {
+      mensajeElement.style.opacity = "0"; // Ocultar el mensaje
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "ShopRoom",
+    "class": "ShopRoom",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Producto",
+        "settings": [
+          {
+            "type": "product",
+            "id": "productlink",
+            "label": "Product"
+          }, {
+            "type": "range",
+            "id": "Top",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Top",
+            "default": 20
+          }, {
+            "type": "range",
+            "id": "Left",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Left",
+            "default": 10
+          }
+        ]
+      }, {
+        "type": "page",
+        "name": "page",
+        "settings": [
+          {
+            "type": "text",
+            "id": "page",
+            "label": "Name Page"
+          }, {
+            "type": "url",
+            "id": "pageurl",
+            "label": "UrlPage"
+          }, {
+            "type": "range",
+            "id": "Top2",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Top",
+            "default": 20
+          }, {
+            "type": "range",
+            "id": "Left2",
+            "min": 1,
+            "max": 100,
+            "step": 1,
+            "unit": "%",
+            "label": "Left",
+            "default": 10
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "ShopRoom",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
