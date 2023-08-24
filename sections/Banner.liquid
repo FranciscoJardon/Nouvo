@@ -1,0 +1,146 @@
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<style > :root
+{
+  --swiper-navigation-color: #000000;
+  --swiper-pagination-color: #161616;
+}
+.ContenedorArrows {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+i {
+  font-size: 1.4rem;
+}
+.SwiperBanner {
+  width: 100%;
+}
+.SlideBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+.ArrowBtn {
+  color: white;
+  background: #000000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.ArrowBtn:hover {
+  background: #282828;
+}
+.ImgSliderBannerTel {
+  display: none;
+}
+
+.ImgSliderBanner {
+  width: 100%;
+}
+@media screen and (max-width: 760px) {
+  .Btn_template {
+    border-radius: 3px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0;
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: center;
+    border: none;
+  }
+
+  .ImgSliderBanner {
+    display: none !important;
+  }
+  .ImgSliderBannerTel {
+    display: flex;
+    width: 100%;
+  }
+  .ContenedorArrows {
+    display: none;
+  }
+}
+</style><!-- Swiper --><div style="" class="swiper SwiperBanner">
+<div class="swiper-wrapper">
+  {% for block in section.blocks %}
+    <div class="swiper-slide SlideBanner ">
+      <a href="{{ block.settings.UrlBanner }}">
+        <img class=" ImgSlider ImgSliderBanner" src="{{ block.settings.ImgBannerDesk| img_url: '4000x' }}" />
+        <img class="ImgSlider ImgSliderBannerTel" src="{{ block.settings.ImgBannerMov | img_url: '4000x' }}" />
+      </a>
+    </div>
+  {% endfor %}
+</div>
+<div class="ContenedorArrows">
+  <div class="button-prev ArrowBtn">
+    <i class='bx bx-chevron-left'></i>
+  </div>
+  <div class="button-next ArrowBtn">
+    <i class='bx bx-chevron-right'></i>
+  </div>
+</div>
+<div class="swiper-pagination"></div></div><!-- Swiper JS --><script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script><!-- Initialize Swiper --><script>
+var swiper = new Swiper(".SwiperBanner", {
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    dynamicBullets: true
+  },
+  navigation: {
+    nextEl: ".button-next",
+    prevEl: ".button-prev"
+  },
+  autoplay: {
+    delay: 4500,
+    disableOnInteraction: false
+  }
+});
+</script>{% schema %}
+{
+  "name": "SliderBanner",
+  "class": "SliderBanner",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "ImgBannerDesk",
+          "label": "Imagen Desktop"
+        }, {
+          "type": "image_picker",
+          "id": "ImgBannerMov",
+          "label": "Imagen Teléfono"
+        }, {
+          "type": "header",
+          "content": "Botón"
+        }, {
+          "type": "url",
+          "id": "UrlBanner",
+          "label": "UrlBanner"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slider-Banner",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}

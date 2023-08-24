@@ -1,0 +1,135 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<h2>{{ section.settings.text-icons }}</h2>
+<br><br>
+<div class="swiper SliderIconos">
+  <div class="swiper-wrapper">
+    {% for block in section.blocks %}
+      <div class="swiper-slide ContendorIconos">
+        <a href="{{ block.settings.UrlColeccion}}">
+          <img src="{{ block.settings.Icono | img_url: '1000x' }}" alt="">
+          <div class="IcosText">
+            <p>{{ block.settings.Titulo }}</p>
+            <i class='bx bx-right-arrow-alt'></i>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+<br><br>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".SliderIconos", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    breakpoints: {
+      600: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      924: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      }
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "ColeccionIcons",
+    "class": "ColeccionIcons",
+    "settings": [
+      {
+        "type": "text",
+        "id": "text-icons",
+        "label": "Text"
+      }
+
+    ],
+    "blocks": [
+      {
+        "type": "image_picker",
+        "name": "Coleccion",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "Icono",
+            "label": "Icono"
+          }, {
+            "type": "text",
+            "id": "Titulo",
+            "label": "Titulo"
+          }, {
+            "type": "url",
+            "id": "UrlColeccion",
+            "label": "Coleccion"
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "ColeccionIcons",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
+<style > :root
+{
+  --Rosa: #EFB9DA;
+
+}
+
+.ContendorIconos {
+  position: relative;
+}
+.ContendorIconos img {
+  width: 100%;
+}
+.ContendorIconos a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: #000000;
+  text-decoration: none;
+}
+.IcosText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.IcosText p {
+  margin: 0;
+  color: var(--Rosa);
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.IcosText i {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.SliderIconos {
+  padding-bottom: 4rem;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000000;
+}
+</style>
