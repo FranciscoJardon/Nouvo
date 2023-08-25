@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-bottom: 20px;
 }
 
 .totals > * {
@@ -11,6 +12,7 @@
 
 .totals > h2 {
   font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-weight: 600;
 }
 
 .totals * {
