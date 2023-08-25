@@ -2,13 +2,15 @@
 <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 <h2>{{ section.settings.text-icons }}</h2>
-<br><br>
+
 <div class="swiper SliderIconos">
   <div class="swiper-wrapper">
     {% for block in section.blocks %}
       <div class="swiper-slide ContendorIconos">
         <a href="{{ block.settings.UrlColeccion}}">
-          <img src="{{ block.settings.Icono | img_url: '1000x' }}" alt="">
+          <div class="conteimg">
+            <img src="{{ block.settings.Icono | img_url: '1000x' }}" alt="">
+          </div>
           <div class="IcosText">
             <p>{{ block.settings.Titulo }}</p>
             <i class='bx bx-right-arrow-alt'></i>
@@ -19,7 +21,7 @@
   </div>
   <div class="swiper-pagination"></div>
 </div>
-<br><br>
+
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -98,7 +100,18 @@
   position: relative;
 }
 .ContendorIconos img {
-  width: 100%;
+  width: 50px;
+
+
+}
+.conteimg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .ContendorIconos a {
   display: flex;
