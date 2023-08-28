@@ -198,6 +198,28 @@
     },
     "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9": {
       "type": "shooroom",
+      "blocks": {
+        "7bffdaae-6dbf-47a3-9759-be30c7c0a849": {
+          "type": "product",
+          "settings": {
+            "productlink": "buro",
+            "Top": 41,
+            "Left": 28
+          }
+        },
+        "2eb4867b-6e9a-4236-a6c4-4803af878bb7": {
+          "type": "product",
+          "settings": {
+            "productlink": "buro-abierto",
+            "Top": 75,
+            "Left": 76
+          }
+        }
+      },
+      "block_order": [
+        "7bffdaae-6dbf-47a3-9759-be30c7c0a849",
+        "2eb4867b-6e9a-4236-a6c4-4803af878bb7"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-08-28_085959_c4b09e95-b4a9-44c3-949a-1903e2988725.png"
       }
