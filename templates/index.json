@@ -198,11 +198,31 @@
     },
     "74431ffc-31cd-4f0f-b71b-2075a4fbfac9": {
       "type": "Banner-Home",
+      "disabled": true,
       "settings": {
         "BannerH": "shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg",
         "text1": "Texto Default",
         "text2": "Texto Default",
         "text3": "Texto Default"
+      }
+    },
+    "eb674413-c9de-41d8-8226-71b0d506cc3f": {
+      "type": "shooroom",
+      "blocks": {
+        "ddadd6de-b263-45ad-bdf8-caf163014f14": {
+          "type": "product",
+          "settings": {
+            "productlink": "",
+            "Top": 20,
+            "Left": 10
+          }
+        }
+      },
+      "block_order": [
+        "ddadd6de-b263-45ad-bdf8-caf163014f14"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg"
       }
     }
   },
@@ -213,6 +233,7 @@
     "1b382b1a-1a45-449a-8d28-e4304e81f80b",
     "rich_text",
     "featured-collection",
-    "74431ffc-31cd-4f0f-b71b-2075a4fbfac9"
+    "74431ffc-31cd-4f0f-b71b-2075a4fbfac9",
+    "eb674413-c9de-41d8-8226-71b0d506cc3f"
   ]
 }
