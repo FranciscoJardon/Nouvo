@@ -196,13 +196,9 @@
         "padding_bottom": 68
       }
     },
-    "74431ffc-31cd-4f0f-b71b-2075a4fbfac9": {
-      "type": "Banner-Home",
+    "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9": {
+      "type": "shooroom",
       "settings": {
-        "BannerH": "shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg",
-        "text1": "Texto Default",
-        "text2": "Texto Default",
-        "text3": "Texto Default"
       }
     },
     "a08c6d37-14ab-4488-8492-46efb20e6597": {
@@ -218,7 +214,7 @@
     "1b382b1a-1a45-449a-8d28-e4304e81f80b",
     "rich_text",
     "featured-collection",
-    "74431ffc-31cd-4f0f-b71b-2075a4fbfac9",
+    "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9",
     "a08c6d37-14ab-4488-8492-46efb20e6597"
   ]
 }
