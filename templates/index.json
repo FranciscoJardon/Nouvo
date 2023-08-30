@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-{"sections":{"3db72f72-58b1-4635-8f18-800191812728":{"type":"Banner","blocks":{"becc50bb-528b-4677-a228-0b47c272abfc":{"type":"image","settings":{"ImgBannerDesk":"shopify:\/\/shop_images\/bureaumusee_2000x1330_3d799e2c-5136-46f5-91dd-18d58b5333fd.webp","ImgBannerMov":"shopify:\/\/shop_images\/Planets_Nebulae_in_space_518424_1080x1920_daf01053-9525-4920-bca1-3a337e6134e4.jpg","UrlBanner":"shopify:\/\/collections\/frontpage"}}},"block_order":["becc50bb-528b-4677-a228-0b47c272abfc"],"settings":{}},"08454a42-fac6-4c12-bdb3-77eae8bd399a":{"type":"iconos","blocks":{"ab2fd968-50bf-4403-9e69-d5c6723d9925":{"type":"image_picker","settings":{"Icono":"shopify:\/\/shop_images\/icons8-in-transit.gif","Titulo":"Envios gratis +999","UrlColeccion":""}},"3835d6c6-c520-454f-9318-5313a34932d2":{"type":"image_picker","settings":{"Icono":"shopify:\/\/shop_images\/icons8-guarantee.gif","Titulo":"Productos de Calidad","UrlColeccion":""}},"5711314e-ccf1-4fc6-ba89-4df6b3f2b937":{"type":"image_picker","settings":{"Icono":"shopify:\/\/shop_images\/icons8-location.gif","Titulo":"Envíos Internacionales","UrlColeccion":""}},"ab152c61-2f20-4e6e-a717-3326c790bae0":{"type":"image_picker","settings":{"Icono":"shopify:\/\/shop_images\/icons8-pos-terminal.gif","Titulo":"Pago 100% seguros","UrlColeccion":""}}},"block_order":["ab2fd968-50bf-4403-9e69-d5c6723d9925","3835d6c6-c520-454f-9318-5313a34932d2","5711314e-ccf1-4fc6-ba89-4df6b3f2b937","ab152c61-2f20-4e6e-a717-3326c790bae0"],"settings":{"text-icons":""}},"6118b726-b7e7-4e3b-a6d5-07088962a323":{"type":"rich-text","blocks":{"bf56c840-dd42-4be0-8784-cdad82194910":{"type":"heading","settings":{"heading":"Colecciones","heading_size":"h1"}}},"block_order":["bf56c840-dd42-4be0-8784-cdad82194910"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":20,"padding_bottom":12}},"1b382b1a-1a45-449a-8d28-e4304e81f80b":{"type":"collecion","blocks":{"44c88718-4562-4549-ac62-4247c34b08c2":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/of07_3.jpg","TituloC":"Nombre"}},"99691282-f96e-4027-9b37-7d26381321e4":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/of08_3.jpg","TituloC":"Nombre"}},"46d4b8d6-9475-48c7-84d3-fcdb32383446":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/ARIES_LATERAL_B_PORTADA.jpg-768x768.webp","TituloC":"Nombre"}},"c1b970b7-791c-40a5-b6d7-75e589286ae2":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg","TituloC":"Nombre"}},"fbc2283e-b80c-481a-bc56-21259fa29123":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/of10_3.jpg","TituloC":"Nombre"}},"5e211c66-5387-469f-bec5-f7d75690db10":{"type":"image_picker","settings":{"Coleccion":"shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg","TituloC":"Nombre"}}},"block_order":["44c88718-4562-4549-ac62-4247c34b08c2","99691282-f96e-4027-9b37-7d26381321e4","46d4b8d6-9475-48c7-84d3-fcdb32383446","c1b970b7-791c-40a5-b6d7-75e589286ae2","fbc2283e-b80c-481a-bc56-21259fa29123","5e211c66-5387-469f-bec5-f7d75690db10"],"settings":{"text-icons":""}},"rich_text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"heading":"Browse our latest products","heading_size":"h1"}}},"block_order":["heading"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":28,"padding_bottom":12}},"featured-collection":{"type":"featured-collection","settings":{"title":"","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":11,"columns_desktop":4,"full_width":true,"show_view_all":false,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"1","swipe_on_mobile":true,"padding_top":0,"padding_bottom":68}},"e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9":{"type":"shooroom","blocks":{"7bffdaae-6dbf-47a3-9759-be30c7c0a849":{"type":"product","settings":{"productlink":"buro","Top":41,"Left":28}},"2eb4867b-6e9a-4236-a6c4-4803af878bb7":{"type":"product","settings":{"productlink":"buro-abierto","Top":75,"Left":76}},"690fee06-a9b4-4918-a756-f052365e72bf":{"type":"product","settings":{"productlink":"credenza-tv","Top":86,"Left":97}}},"block_order":["7bffdaae-6dbf-47a3-9759-be30c7c0a849","2eb4867b-6e9a-4236-a6c4-4803af878bb7","690fee06-a9b4-4918-a756-f052365e72bf"],"settings":{"image":"shopify:\/\/shop_images\/Captura_de_pantalla_2023-08-28_085959_c4b09e95-b4a9-44c3-949a-1903e2988725.png"}},"a08c6d37-14ab-4488-8492-46efb20e6597":{"type":"Reviews","settings":{}},"fa1a70cd-48a2-4236-96bf-a9c5e7d5b123":{"type":"image-with-text","blocks":{"template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-heading-1":{"type":"heading","settings":{"heading":"Image with text","heading_size":"h1"}},"template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-text-1":{"type":"text","settings":{"text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","text_style":"body"}},"template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-button-1":{"type":"button","settings":{"button_label":"Button label","button_link":"","button_style_secondary":false}}},"block_order":["template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-heading-1","template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-text-1","template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-button-1"],"settings":{"height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"center","content_layout":"no-overlap","color_scheme":"","image_behavior":"ambient","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}}},"order":["3db72f72-58b1-4635-8f18-800191812728","08454a42-fac6-4c12-bdb3-77eae8bd399a","6118b726-b7e7-4e3b-a6d5-07088962a323","1b382b1a-1a45-449a-8d28-e4304e81f80b","rich_text","featured-collection","e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9","a08c6d37-14ab-4488-8492-46efb20e6597","fa1a70cd-48a2-4236-96bf-a9c5e7d5b123"]}
-=======
 {
   "sections": {
     "3db72f72-58b1-4635-8f18-800191812728": {
@@ -240,51 +237,6 @@
       "type": "Reviews",
       "settings": {
       }
-    },
-    "fa1a70cd-48a2-4236-96bf-a9c5e7d5b123": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-heading-1",
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-text-1",
-        "template--20748082643252__fa1a70cd-48a2-4236-96bf-a9c5e7d5b123-button-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -295,8 +247,6 @@
     "rich_text",
     "featured-collection",
     "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9",
-    "a08c6d37-14ab-4488-8492-46efb20e6597",
-    "fa1a70cd-48a2-4236-96bf-a9c5e7d5b123"
+    "a08c6d37-14ab-4488-8492-46efb20e6597"
   ]
 }
->>>>>>> cc07d36733b75e7ceba463d524451e0b2e850ebf
