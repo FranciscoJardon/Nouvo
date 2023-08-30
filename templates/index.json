@@ -192,8 +192,9 @@
       "blocks": {
         "ab2fd968-50bf-4403-9e69-d5c6723d9925": {
           "type": "image_picker",
+          "disabled": true,
           "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-in-transit.gif",
+            "Icono": "shopify:\/\/shop_images\/bureaumusee_2000x1330_3d799e2c-5136-46f5-91dd-18d58b5333fd.webp",
             "Titulo": "Envios gratis +999",
             "UrlColeccion": ""
           }
