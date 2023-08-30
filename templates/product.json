@@ -49,7 +49,7 @@
         "a971544b-5fc1-4722-83b6-6b4373a32d9f": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Envíos",
+            "heading": "Políticas de envío",
             "icon": "truck",
             "content": "<p>Los envíos se calculan por separado, la tarifa puede rondar entre los $499 a $1000 dependiendo de la zona de envío <\/p>",
             "page": ""
