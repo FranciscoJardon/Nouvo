@@ -116,10 +116,10 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "hola",
-    "cart_drawer_collection2": "frontpage",
-    "cart_drawer_collection3": "frontpage",
-    "cart_drawer_collection4": "hola",
+    "cart_drawer_collection": "cocina",
+    "cart_drawer_collection2": "escritorios",
+    "cart_drawer_collection3": "libreros",
+    "cart_drawer_collection4": "recamara",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
