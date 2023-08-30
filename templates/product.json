@@ -46,20 +46,20 @@
             "page": ""
           }
         },
-        "3cd28693-02db-40db-ae15-c42df5ef7410": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Incluye",
-            "icon": "clipboard",
-            "content": "",
-            "page": ""
-          }
-        },
         "a971544b-5fc1-4722-83b6-6b4373a32d9f": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Envíos",
             "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "47566134-818c-43e6-ba44-9bddfdbc5802": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "¿Quieres algo más perzonalizado?",
+            "icon": "question_mark",
             "content": "",
             "page": ""
           }
@@ -73,18 +73,18 @@
         "buy_buttons",
         "description",
         "adb2b86f-a389-4d94-8ce3-b404efd5a6a8",
-        "3cd28693-02db-40db-ae15-c42df5ef7410",
-        "a971544b-5fc1-4722-83b6-6b4373a32d9f"
+        "a971544b-5fc1-4722-83b6-6b4373a32d9f",
+        "47566134-818c-43e6-ba44-9bddfdbc5802"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "hover",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "columns",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
