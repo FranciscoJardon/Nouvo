@@ -18,52 +18,6 @@
       "settings": {
       }
     },
-    "08454a42-fac6-4c12-bdb3-77eae8bd399a": {
-      "type": "iconos",
-      "blocks": {
-        "ab2fd968-50bf-4403-9e69-d5c6723d9925": {
-          "type": "image_picker",
-          "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-in-transit.gif",
-            "Titulo": "Envios gratis +999",
-            "UrlColeccion": ""
-          }
-        },
-        "3835d6c6-c520-454f-9318-5313a34932d2": {
-          "type": "image_picker",
-          "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-guarantee.gif",
-            "Titulo": "Productos de Calidad",
-            "UrlColeccion": ""
-          }
-        },
-        "5711314e-ccf1-4fc6-ba89-4df6b3f2b937": {
-          "type": "image_picker",
-          "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-location.gif",
-            "Titulo": "Envíos Internacionales",
-            "UrlColeccion": ""
-          }
-        },
-        "ab152c61-2f20-4e6e-a717-3326c790bae0": {
-          "type": "image_picker",
-          "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-pos-terminal.gif",
-            "Titulo": "Pago 100% seguros",
-            "UrlColeccion": ""
-          }
-        }
-      },
-      "block_order": [
-        "ab2fd968-50bf-4403-9e69-d5c6723d9925",
-        "3835d6c6-c520-454f-9318-5313a34932d2",
-        "5711314e-ccf1-4fc6-ba89-4df6b3f2b937",
-        "ab152c61-2f20-4e6e-a717-3326c790bae0"
-      ],
-      "settings": {
-        "text-icons": ""
-      }
-    },
     "6118b726-b7e7-4e3b-a6d5-07088962a323": {
       "type": "rich-text",
       "blocks": {
@@ -233,6 +187,52 @@
         "image": "shopify:\/\/shop_images\/Captura_de_pantalla_2023-08-28_085959_c4b09e95-b4a9-44c3-949a-1903e2988725.png"
       }
     },
+    "08454a42-fac6-4c12-bdb3-77eae8bd399a": {
+      "type": "iconos",
+      "blocks": {
+        "ab2fd968-50bf-4403-9e69-d5c6723d9925": {
+          "type": "image_picker",
+          "settings": {
+            "Icono": "shopify:\/\/shop_images\/icons8-in-transit.gif",
+            "Titulo": "Envios gratis +999",
+            "UrlColeccion": ""
+          }
+        },
+        "3835d6c6-c520-454f-9318-5313a34932d2": {
+          "type": "image_picker",
+          "settings": {
+            "Icono": "shopify:\/\/shop_images\/icons8-guarantee.gif",
+            "Titulo": "Productos de Calidad",
+            "UrlColeccion": ""
+          }
+        },
+        "5711314e-ccf1-4fc6-ba89-4df6b3f2b937": {
+          "type": "image_picker",
+          "settings": {
+            "Icono": "shopify:\/\/shop_images\/icons8-location.gif",
+            "Titulo": "Envíos Internacionales",
+            "UrlColeccion": ""
+          }
+        },
+        "ab152c61-2f20-4e6e-a717-3326c790bae0": {
+          "type": "image_picker",
+          "settings": {
+            "Icono": "shopify:\/\/shop_images\/icons8-pos-terminal.gif",
+            "Titulo": "Pago 100% seguros",
+            "UrlColeccion": ""
+          }
+        }
+      },
+      "block_order": [
+        "ab2fd968-50bf-4403-9e69-d5c6723d9925",
+        "3835d6c6-c520-454f-9318-5313a34932d2",
+        "5711314e-ccf1-4fc6-ba89-4df6b3f2b937",
+        "ab152c61-2f20-4e6e-a717-3326c790bae0"
+      ],
+      "settings": {
+        "text-icons": ""
+      }
+    },
     "a08c6d37-14ab-4488-8492-46efb20e6597": {
       "type": "Reviews",
       "settings": {
@@ -241,12 +241,12 @@
   },
   "order": [
     "3db72f72-58b1-4635-8f18-800191812728",
-    "08454a42-fac6-4c12-bdb3-77eae8bd399a",
     "6118b726-b7e7-4e3b-a6d5-07088962a323",
     "1b382b1a-1a45-449a-8d28-e4304e81f80b",
     "rich_text",
     "featured-collection",
     "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9",
+    "08454a42-fac6-4c12-bdb3-77eae8bd399a",
     "a08c6d37-14ab-4488-8492-46efb20e6597"
   ]
 }
