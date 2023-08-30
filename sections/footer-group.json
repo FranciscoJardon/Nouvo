@@ -69,7 +69,7 @@
       "settings": {
         "color_scheme": "accent-1",
         "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "¿Quieres un descuento por tu primera compra?",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
