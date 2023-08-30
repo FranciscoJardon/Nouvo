@@ -51,7 +51,7 @@
           "settings": {
             "heading": "Envíos",
             "icon": "truck",
-            "content": "",
+            "content": "<p>Los envíos se calculan por separado, la tarifa puede rondar entre los $499 a $1000 dependiendo de la zona de envío <\/p>",
             "page": ""
           }
         },
@@ -84,7 +84,7 @@
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "hover",
-        "mobile_thumbnails": "columns",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
