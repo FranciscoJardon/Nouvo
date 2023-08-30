@@ -49,7 +49,7 @@
           "type": "image_picker",
           "settings": {
             "Icono": "shopify:\/\/shop_images\/icons8-guarantee.gif",
-            "Titulo": "",
+            "Titulo": "Garantia en tu compra",
             "UrlColeccion": ""
           }
         }
