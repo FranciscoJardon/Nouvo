@@ -98,7 +98,7 @@
     id="large-image"
     src="{{ section.settings.image | img_url: '3000x' }}"
     alt=""
-    style=" height: 100vh;">
+    style=" height: 100vh; width:100%;">
   {% for block in section.blocks %}
     {% if block.type == 'product' %}
       {% assign product = block.settings.productlink | product %}
