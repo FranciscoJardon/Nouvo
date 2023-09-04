@@ -136,7 +136,7 @@
       "barra-de-anuncio": {
         "type": "barra-de-anuncio",
         "settings": {
-          "text": "Welcome to our store",
+          "text": "10% por apertura \"WELCOME10\"",
           "colorBackground": "#000000",
           "colorText": "#ffffff",
           "link": ""
