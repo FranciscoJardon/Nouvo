@@ -1,191 +1,58 @@
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<h3>Testimonios</h3>
-<h2>Más de 1,000 clientes satisfechos</h2>
-<div class="ContenedorReviews">
-  <div>
-    <div class="CardTestimonio">
-      <div class="ImgTextReview">
-        <img
-          class="ImgReview"
-          src="https://images.unsplash.com/photo-1616002411355-49593fd89721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcmElMjBkZSUyMG11amVyfGVufDB8fDB8fHww&w=1000&q=80"
-          alt="">
-        <div class="NombreReview">
-          <h3>Camila Herrera
-          </h3>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-        </div>
-      </div>
-      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
-    </div>
+<!-- Link Swiper's CSS -->
+<div>
+  <h2 style="text-align: center;">Reviews</h2>
+  <div class="swiper ReviewsSl">
+    <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        <div class="ContenidoReview swiper-slide  ">
+          <img class="ImgReview" src="{{ block.settings.productReview | img_url: '600x'  }}">
+          <div class="TextReviews">
 
-  </div>
-  <div class="contenedordoble">
-    <div class="CardTestimonio">
-      <div class="ImgTextReview">
-        <img
-          class="ImgReview"
-          src="https://www.ohchr.org/sites/default/files/styles/hero_5_image_desktop/public/2022-11/women-rights-main-image.jpg?itok=RRGl2PFb"
-          alt="">
-        <div class="NombreReview">
-          <h3>Maria Sanchez
-          </h3>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-        </div>
-      </div>
-      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface.</p>
-    </div>
-    <div class="CardTestimonio">
-      <div class="ImgTextReview">
-        <img
-          class="ImgReview"
-          src="https://pbs.twimg.com/profile_images/1635609548688879617/yvhQ8msQ_400x400.jpg"
-          alt="">
-        <div class="NombreReview">
-          <h3>Roberto Perez
-          </h3>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-        </div>
-      </div>
-      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
-    </div>
-  </div>
-  <div>
+            <img
+              class="Comillas"
+              src="https://cdn.shopify.com/s/files/1/0812/3737/7332/files/speech-marks_ver_1.jpg?v=1693793119"
+              alt="">
 
-    <div class="CardTestimonio">
-      <div class="ImgTextReview">
-        <img
-          class="ImgReview"
-          src="https://statics-cuidateplus.marca.com/cms/styles/ratio_43/azblob/mujer-50.jpg.webp?itok=QkVyHSnR"
-          alt="">
-        <div class="NombreReview">
-          <h3>Miros Ortega
-          </h3>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-          <i class='bx bxs-star'></i>
-        </div>
-      </div>
-      <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
-    </div>
 
+            <p>{{ block.settings.Review }}</p>
+            <p>
+              - {{ block.settings.NameReview }}</p>
+          </div>
+        </div>
+
+      {% endfor %}
+
+    </div>
+    <div class="swiper-pagination"></div>
   </div>
+
 </div>
-
-<style>
-  .ContenedorReviews {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    position: relative;
-  }
-  .ContenedorReviews > div {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 33%;
-  }
-  .ContenedorReviews > div > img {
-    width: 100px;
-  }
-  .Reviews {
-
-    display: flex;
-    width: 100%;
-    height: auto;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-  }
-  .Reviews h2 {
-    font-size: 3rem;
-    color: #000000;
-  }
-  .Reviews > h3 {
-    font-size: 2.2rem;
-    color: #000000;
-  }
-  .CardTestimonio {
-    background: #ffffff;
-    width: auto;
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    width: 100%;
-    min-width: 350px;
-  }
-  .ImgReview {
-    width: 80px !important;
-    height: 80px !important;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .ImgTextReview {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: start;
-  }
-  .NombreReview h3 {
-    color: #000000;
-    font-weight: 700;
-  }
-  .NombreReview i {
-    color: #FFBE9F;
-  }
-
-  @media screen and (max-width: 950px) {
-    .ContenedorReviews {}
-    .ContenedorImgTextBeneficios {
-      flex-direction: column;
-    }
-    .ContenedorImgTextBeneficios img {
-      width: 80%;
-      order: 4;
-    }
-    .contenedordoble {
-      display: flex;
-      flex-direction: row !important;
-    }
-    .ContenedorReviews {
-      width: 100%;
-      overflow: auto;
-      padding-bottom: 2rem;
-    }
-    .CardTestimonio {
-      width: 400px;
-
-
-    }
-    .figura {
-      display: none;
-    }
-  }
-</style>
-
 {% schema %}
   {
     "name": "Reviews",
     "class": "Reviews",
     "settings": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Review",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "productReview",
+            "label": "Product"
+          }, {
+            "type": "text",
+            "id": "Review",
+            "label": "Review"
+          }, {
+            "type": "text",
+            "id": "NameReview",
+            "label": "Nombre Review"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
         "name": "Reviews",
@@ -194,3 +61,76 @@
     ]
   }
 {% endschema %}
+
+<style>
+
+  .Comillas {
+    width: 40px;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+  }
+  .ContenidoReview {
+    display: flex;
+    padding-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .ImgReview {
+    width: 50%;
+    height: 325px;
+    object-fit: cover;
+  }
+  .TextReviews {
+    height: 240px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+  }
+
+  @media screen and (max-width: 600px) {
+    .ContenidoReview {
+      flex-direction: column;
+    }
+    .ImgReview {
+      height: 300px;
+      width: 80%;
+    }
+    .TextReviews {
+      padding: 0.5rem;
+      height: 280px;
+      width: 80%;
+    }
+    .ImgSliderCollecion,
+    .ImgSliderCollecion2 {
+      height: 300px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+</style>
+
+<script>
+  var swiper = new Swiper(".ReviewsSl", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    speed: 1000,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    breakpoints: {
+      950: {
+        slidesPerView: 2,
+        spaceBetween: 0
+      }
+    }
+  });
+</script>

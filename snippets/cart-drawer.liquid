@@ -545,8 +545,7 @@
           <div class="totals" role="status">
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
             <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
-          </div>
-
+          </div> 
           <div class="container-checkbox">
             <div class="checkbox-apple">
               <input class="yep" id="check-apple" type="checkbox">
@@ -573,9 +572,9 @@
             class="Btn"
             name="checkout"
             form="CartDrawer-Form"
-            {% if cart == empty %}
-              disabled
-            {% endif %}
+
+            readonly
+           
           >
             {{ 'sections.cart.checkout' | t }}
             <svg class="svgIcon" viewBox="0 0 576 512">
@@ -583,6 +582,8 @@
             </svg>
           </button>
         </div>
+
+      
         <div class="container-icons">
           <div class="container-item">
             <div class="item-icon">
@@ -623,7 +624,38 @@
     </div>
   </div>
 </cart-drawer>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  // Obtenemos referencias a los elementos HTML
+  const checkbox = document.getElementById("check-apple");
+  const checkoutBtn = document.getElementById("CartDrawer-Checkout");
+  const textBox = document.querySelector(".text-box");
 
+  // Agregamos un listener al checkbox para manejar su cambio de estado
+  checkbox.addEventListener("change", function() {
+    if (checkbox.checked) {
+      // Si el checkbox está marcado, quitamos el atributo readonly del botón
+      checkoutBtn.removeAttribute("readonly");
+      textBox.style.color = "black";
+    } else {
+      // Si el checkbox está desmarcado, agregamos el atributo readonly al botón
+      checkoutBtn.setAttribute("readonly", "true");
+    }
+  });
+
+  // Agregamos un listener al botón para manejar su clic
+  checkoutBtn.addEventListener("click", function(event) {
+    if (checkoutBtn.hasAttribute("readonly")) {
+      // Evitamos la acción predeterminada del botón cuando está en modo readonly
+      event.preventDefault();
+
+      // Cambiamos el color del span a rojo
+      textBox.style.color = "red";
+    }
+  });
+});
+
+</script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     function isIE() {
