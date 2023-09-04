@@ -105,15 +105,16 @@ a {
 <div class="swiper-wrapper">
   {% for block in section.blocks %}
     <div class="swiper-slide SlideBanner">
-  <a href="{{ block.settings.UrlBanner }}">
+  
     <div class="image-container">
       <img class="ImgSlider ImgSliderBanner" src="{{ block.settings.ImgBannerDesk| img_url: '4000x' }}" alt="Descripción de la imagen para accesibilidad" />
       <img class="ImgSlider ImgSliderBannerTel" src="{{ block.settings.ImgBannerMov | img_url: '4000x' }}" alt="Descripción de la imagen para accesibilidad" />
     </div>
-    <div class="text-overlay"><h1> {{  block.settings.text-header }}</h1>
+    <div class="text-overlay">
+     <h1> {{  block.settings.text-header }}</h1>
     <a hrfe="{{  block.settings.link }}"> {{  block.settings.btn-text }} </a>
     </div>
-  </a>
+ 
 </div>
 
   {% endfor %}
