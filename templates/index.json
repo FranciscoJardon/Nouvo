@@ -166,7 +166,8 @@
         "7bffdaae-6dbf-47a3-9759-be30c7c0a849"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_23.png"
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_23.png",
+        "image-mob": "shopify:\/\/shop_images\/IMG_4132.jpg"
       }
     },
     "08454a42-fac6-4c12-bdb3-77eae8bd399a": {
