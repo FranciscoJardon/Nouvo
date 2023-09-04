@@ -107,7 +107,7 @@ a {
       <img class="ImgSlider ImgSliderBannerTel" src="{{ block.settings.ImgBannerMov | img_url: '4000x' }}" alt="Descripción de la imagen para accesibilidad" />
     </div>
     <div class="text-overlay"><h1> {{  block.settings.text-header }}</h1>
-    
+    <a> {{   }} </a>
     </div>
   </a>
 </div>
@@ -157,7 +157,7 @@ var swiper = new Swiper(".SwiperBanner", {
           "id": "ImgBannerMov",
           "label": "Imagen Teléfono"
         }, 
-        {
+    {
            "type": "text",
           "id": "text-header",
           "label": "Texto" 
@@ -165,16 +165,18 @@ var swiper = new Swiper(".SwiperBanner", {
         {
           "type": "header",
           "content": "Botón"
-        }, {
+        },    {
+          "type": "text",
+          "id": "btn-text",
+          "label": "Boton",
+          "default":"SHOP NOW"
+        },
+        {
           "type": "url",
           "id": "UrlBanner",
           "label": "UrlBanner"
-        },
-        {
-            "type": "text",
-          "id": "btn-text",
-          "label": "Texto"
         }
+      
       ]
     }
   ],
