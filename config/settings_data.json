@@ -123,6 +123,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/Screenshot_2-removebg-preview_1.png",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#efecec",
     "checkout_accent_color": "#000000",
     "checkout_button_color": "#000000",
     "sections": {
