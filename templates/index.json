@@ -56,7 +56,7 @@
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of08_3.jpg",
-            "TituloC": "Tocadores",
+            "TituloC": "Recamara",
             "link-collection": "shopify:\/\/collections\/recamara"
           }
         },
@@ -64,8 +64,8 @@
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of13_3_1c405625-f93f-457b-9fdf-37ac685725b3.jpg",
-            "TituloC": "Cocina",
-            "link-collection": ""
+            "TituloC": "Comedores",
+            "link-collection": "shopify:\/\/collections\/cocina"
           }
         },
         "c1b970b7-791c-40a5-b6d7-75e589286ae2": {
@@ -81,7 +81,7 @@
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/272712357_622342162402493_4634889689473728813_n.jpg",
             "TituloC": "Decorativos",
-            "link-collection": ""
+            "link-collection": "shopify:\/\/collections\/bar-decorativo"
           }
         },
         "5e211c66-5387-469f-bec5-f7d75690db10": {
