@@ -48,42 +48,48 @@
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/97CE97D6-BD93-4AF9-8CF5-0923E123D432.jpg",
-            "TituloC": "Libreros"
+            "TituloC": "Libreros",
+            "link-collection": "shopify:\/\/collections\/cocina"
           }
         },
         "99691282-f96e-4027-9b37-7d26381321e4": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of08_3.jpg",
-            "TituloC": "Tocadores"
+            "TituloC": "Tocadores",
+            "link-collection": ""
           }
         },
         "46d4b8d6-9475-48c7-84d3-fcdb32383446": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of13_3_1c405625-f93f-457b-9fdf-37ac685725b3.jpg",
-            "TituloC": "Cocina"
+            "TituloC": "Cocina",
+            "link-collection": ""
           }
         },
         "c1b970b7-791c-40a5-b6d7-75e589286ae2": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg",
-            "TituloC": "Escritorios"
+            "TituloC": "Escritorios",
+            "link-collection": ""
           }
         },
         "fbc2283e-b80c-481a-bc56-21259fa29123": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/272712357_622342162402493_4634889689473728813_n.jpg",
-            "TituloC": "Decorativos"
+            "TituloC": "Decorativos",
+            "link-collection": ""
           }
         },
         "5e211c66-5387-469f-bec5-f7d75690db10": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/IMG_4132_a6607aa4-2969-4d97-ac56-a60a1eb6f609.jpg",
-            "TituloC": "Recamara"
+            "TituloC": "Recamara",
+            "link-collection": ""
           }
         }
       },
