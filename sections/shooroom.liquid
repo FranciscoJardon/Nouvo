@@ -89,9 +89,6 @@
   }
 
 
-  .ContenedorMain img {
-    display:block
-  }
 
   img.mobile-image {
     display:none;
@@ -103,7 +100,7 @@
       display:block;
     }
 
-    .ContenedorMain img {
+    img.desk-image {
       display:none;
     }
   }
@@ -116,6 +113,7 @@
   id="image-container"
   style="width: 100%;  overflow: auto; position:relative;">
   <img
+    class="desk-image"
     id="large-image"
     src="{{ section.settings.image | img_url: '3000x' }}"
     alt=""
