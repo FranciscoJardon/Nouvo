@@ -94,14 +94,14 @@
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of07_3.jpg",
-            "TituloC": "Nombre"
+            "TituloC": "Libreros"
           }
         },
         "99691282-f96e-4027-9b37-7d26381321e4": {
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/of08_3.jpg",
-            "TituloC": "Nombre"
+            "TituloC": "Tocadores"
           }
         },
         "46d4b8d6-9475-48c7-84d3-fcdb32383446": {
@@ -115,7 +115,7 @@
           "type": "image_picker",
           "settings": {
             "Coleccion": "shopify:\/\/shop_images\/324393607_865439381243097_6211708330406144444_n.jpg",
-            "TituloC": "Nombre"
+            "TituloC": "Escritorios"
           }
         },
         "fbc2283e-b80c-481a-bc56-21259fa29123": {
