@@ -200,7 +200,7 @@
           "type": "image_picker",
           "settings": {
             "Icono": "shopify:\/\/shop_images\/icons8-in-transit.gif",
-            "Titulo": "Envios gratis +999",
+            "Titulo": "Entregas en Guadalajara",
             "UrlColeccion": ""
           }
         },
@@ -208,7 +208,7 @@
           "type": "image_picker",
           "settings": {
             "Icono": "shopify:\/\/shop_images\/icons8-location.gif",
-            "Titulo": "Envíos Internacionales",
+            "Titulo": "Envíos Nacionales",
             "UrlColeccion": ""
           }
         },
@@ -219,21 +219,12 @@
             "Titulo": "Pago 100% seguros",
             "UrlColeccion": ""
           }
-        },
-        "6f11c1ec-b6da-46ba-92f2-7d114ab8ae5f": {
-          "type": "image_picker",
-          "settings": {
-            "Icono": "shopify:\/\/shop_images\/icons8-guarantee.gif",
-            "Titulo": "Garantia en tu compra",
-            "UrlColeccion": ""
-          }
         }
       },
       "block_order": [
         "ab2fd968-50bf-4403-9e69-d5c6723d9925",
         "5711314e-ccf1-4fc6-ba89-4df6b3f2b937",
-        "ab152c61-2f20-4e6e-a717-3326c790bae0",
-        "6f11c1ec-b6da-46ba-92f2-7d114ab8ae5f"
+        "ab152c61-2f20-4e6e-a717-3326c790bae0"
       ],
       "settings": {
         "text-icons": ""
