@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/bureaumusee_2000x1330_3d799e2c-5136-46f5-91dd-18d58b5333fd.webp",
-            "ImgBannerMov": "shopify:\/\/shop_images\/Planets_Nebulae_in_space_518424_1080x1920_daf01053-9525-4920-bca1-3a337e6134e4.jpg",
+            "ImgBannerMov": "shopify:\/\/shop_images\/IMG_4132.jpg",
             "UrlBanner": "shopify:\/\/collections\/frontpage"
           }
         }
@@ -156,35 +156,17 @@
         "7bffdaae-6dbf-47a3-9759-be30c7c0a849": {
           "type": "product",
           "settings": {
-            "productlink": "buro",
-            "Top": 41,
-            "Left": 28
-          }
-        },
-        "2eb4867b-6e9a-4236-a6c4-4803af878bb7": {
-          "type": "product",
-          "settings": {
-            "productlink": "buro-abierto",
-            "Top": 75,
-            "Left": 76
-          }
-        },
-        "690fee06-a9b4-4918-a756-f052365e72bf": {
-          "type": "product",
-          "settings": {
-            "productlink": "credenza-tv",
-            "Top": 86,
-            "Left": 97
+            "productlink": "escritorio-sencillo",
+            "Top": 63,
+            "Left": 69
           }
         }
       },
       "block_order": [
-        "7bffdaae-6dbf-47a3-9759-be30c7c0a849",
-        "2eb4867b-6e9a-4236-a6c4-4803af878bb7",
-        "690fee06-a9b4-4918-a756-f052365e72bf"
+        "7bffdaae-6dbf-47a3-9759-be30c7c0a849"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_22.png"
+        "image": "shopify:\/\/shop_images\/Diseno_sin_titulo_23.png"
       }
     },
     "08454a42-fac6-4c12-bdb3-77eae8bd399a": {
