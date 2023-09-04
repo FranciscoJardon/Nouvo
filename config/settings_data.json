@@ -120,6 +120,11 @@
     "cart_drawer_collection2": "escritorios",
     "cart_drawer_collection3": "libreros",
     "cart_drawer_collection4": "recamara",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Screenshot_2-removebg-preview_1.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#000000",
+    "checkout_button_color": "#000000",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
