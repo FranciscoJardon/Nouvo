@@ -4,7 +4,7 @@
 <h2>{{ section.settings.text-icons }}</h2>
 
 <div class="swiper SliderIconos">
-  <div class="swiper-wrapper">
+  <div class="swiper-wrapper my-4">
     {% for block in section.blocks %}
       <div class="swiper-slide ContendorIconos">
         <a href="{{ block.settings.UrlColeccion}}">
@@ -139,8 +139,11 @@
   font-weight: 800;
 }
 .SliderIconos {
-  margin: 4rem;
+  padding-bottom: 4rem;
 }
+  my-4 {
+    margin:24px 0px;
+  }
 
 .swiper-pagination-bullet-active {
   background: #000000;
