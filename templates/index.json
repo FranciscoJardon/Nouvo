@@ -235,6 +235,36 @@
     },
     "a08c6d37-14ab-4488-8492-46efb20e6597": {
       "type": "Reviews",
+      "blocks": {
+        "ff215168-9793-47c3-aac6-ee027741bcc9": {
+          "type": "image",
+          "settings": {
+            "productReview": "shopify:\/\/shop_images\/of16_2.jpg",
+            "Review": "",
+            "NameReview": ""
+          }
+        },
+        "2c5e8ab4-4998-49b4-8444-144fb01a67bd": {
+          "type": "image",
+          "settings": {
+            "productReview": "shopify:\/\/shop_images\/of16_2.jpg",
+            "Review": "",
+            "NameReview": ""
+          }
+        },
+        "208e3502-a726-4336-9597-182f8f5f263c": {
+          "type": "image",
+          "settings": {
+            "Review": "",
+            "NameReview": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff215168-9793-47c3-aac6-ee027741bcc9",
+        "2c5e8ab4-4998-49b4-8444-144fb01a67bd",
+        "208e3502-a726-4336-9597-182f8f5f263c"
+      ],
       "settings": {
       }
     }
