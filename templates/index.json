@@ -8,8 +8,9 @@
           "settings": {
             "ImgBannerDesk": "shopify:\/\/shop_images\/Diseno_sin_titulo_25.png",
             "ImgBannerMov": "shopify:\/\/shop_images\/IMG_4132.jpg",
-            "text-header": "MAS QUE UN ESPACIO",
-            "btn-text": "SHOP NOW"
+            "text-header": "MáS QUE UN ESPACIO",
+            "btn-text": "SHOP NOW",
+            "link": ""
           }
         }
       },
