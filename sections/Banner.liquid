@@ -57,13 +57,15 @@ i {
 
 /* Estilo para el texto superpuesto */
 .text-overlay {
-  position: absolute; /* Establece la posición absoluta para que el texto se superponga a la imagen */
-  top: 0; /* Puedes ajustar la posición vertical del texto según tus preferencias */
-  left: 0; /* Puedes ajustar la posición horizontal del texto según tus preferencias */
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado interno del texto */
-  font-size: 16px; /* Tamaño de fuente del texto */
+ position: absolute;
+  top: 50%; /* Coloca el centro vertical del texto en el centro vertical del contenedor */
+  left: 50%; /* Coloca el centro horizontal del texto en el centro horizontal del contenedor */
+  transform: translate(-50%, -50%); /* Centra el texto correctamente */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center; /* Centra el texto horizontalmente */
 }
 
 /* Estilo para el enlace (opcional) */
