@@ -1,7 +1,9 @@
 <div class="ContenedorCollecion">
   {% for block in section.blocks %}
     <div>
+    <a href="{{ block.settings.link-collection }}">
       <img src="{{ block.settings.Coleccion | img_url: '1000x' }}" alt="">
+    </a>
       <p class="TextoColeccion">{{ block.settings.TituloC }}</p>
     </div>
   {% endfor %}
@@ -141,11 +143,8 @@
   
   .ContenedorCollecion div img {
     filter: brightness(70%); 
-  }
 
-    
-  }
-  
+ 
     
 
 
@@ -176,6 +175,11 @@
             "id": "TituloC",
             "label": "Titulo Colección",
             "default": "Nombre"
+          },
+          {
+              "type": "url",
+            "id": "link-url",
+            "label": "Link"
           }
         ]
       }
