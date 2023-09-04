@@ -150,6 +150,29 @@
         "padding_bottom": 68
       }
     },
+    "6a0e96b8-9376-4574-8551-4497afdeda7f": {
+      "type": "rich-text",
+      "blocks": {
+        "d197c281-4266-46c0-9d15-c370e384018b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspirate en",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "d197c281-4266-46c0-9d15-c370e384018b"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
     "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9": {
       "type": "shooroom",
       "blocks": {
@@ -258,6 +281,7 @@
     "1b382b1a-1a45-449a-8d28-e4304e81f80b",
     "rich_text",
     "featured-collection",
+    "6a0e96b8-9376-4574-8551-4497afdeda7f",
     "e3a104ee-8d74-4f9a-bb65-0c40eb11ffb9",
     "08454a42-fac6-4c12-bdb3-77eae8bd399a",
     "a08c6d37-14ab-4488-8492-46efb20e6597"
