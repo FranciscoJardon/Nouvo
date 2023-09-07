@@ -10,6 +10,17 @@
     },
     "61b70661-1b65-42cc-a124-ac211e4d0655": {
       "type": "galeria",
+      "blocks": {
+        "398f4136-7125-4fab-ab98-b351bac422d8": {
+          "type": "image",
+          "settings": {
+            "Img": "shopify:\/\/shop_images\/Screenshot_7_b79a7381-b864-43f7-8a0b-4a27cd22314e.png"
+          }
+        }
+      },
+      "block_order": [
+        "398f4136-7125-4fab-ab98-b351bac422d8"
+      ],
       "settings": {
       }
     }
