@@ -7,9 +7,15 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4bda3347-935a-465a-a0d5-305f37644297": {
+      "type": "galeria",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4bda3347-935a-465a-a0d5-305f37644297"
   ]
 }
