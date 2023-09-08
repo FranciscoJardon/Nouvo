@@ -91,20 +91,19 @@
 
 
   img.mobile-image {
-    display:none;
+    display: none;
   }
 
 
-  @media (max-width:590px) {
+  @media(max-width:590px) {
     img.mobile-image {
-      display:block;
+      display: block;
     }
 
     img.desk-image {
-      display:none;
+      display: none;
     }
   }
-  
 </style>
 
 
@@ -118,13 +117,14 @@
     src="{{ section.settings.image | img_url: '3000x' }}"
     alt=""
     style=" height: 100vh; width:100%; object-fit:cover;">
-  <img class="mobile-image"
+  <img
+    class="mobile-image"
     id="large-image"
     src="{{ section.settings.image-mob | img_url: '3000x' }}"
     alt=""
     style="width:100%; object-fit:cover;">
-  
-  
+
+
   {% for block in section.blocks %}
     {% if block.type == 'product' %}
       {% assign product = block.settings.productlink | product %}
@@ -187,8 +187,7 @@
         "type": "image_picker",
         "id": "image",
         "label": "Image"
-      },
-      {
+      }, {
         "type": "image_picker",
         "id": "image-mob",
         "label": "Image"

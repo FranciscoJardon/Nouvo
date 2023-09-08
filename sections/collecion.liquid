@@ -1,9 +1,9 @@
 <div class="ContenedorCollecion">
   {% for block in section.blocks %}
     <div>
-    <a href="{{ block.settings.link-collection }}">
-      <img src="{{ block.settings.Coleccion | img_url: '1000x' }}" alt="">
-      <p class="TextoColeccion">{{ block.settings.TituloC }}</p>
+      <a href="{{ block.settings.link-collection }}">
+        <img src="{{ block.settings.Coleccion | img_url: '1000x' }}" alt="">
+        <p class="TextoColeccion">{{ block.settings.TituloC }}</p>
       </a>
     </div>
   {% endfor %}
@@ -138,57 +138,33 @@
     }
 
     .ContenedorCollecion div .TextoColeccion {
-    bottom: 10px;
-  }
-  
-  .ContenedorCollecion div img {
-    filter: brightness(70%); 
+      bottom: 10px;
+    }
 
- 
-    
+    .ContenedorCollecion div img {
+      filter: brightness(70%);
 
 
 
-</style>
-{% schema %}
-  {
-    "name": "Coleccion",
-    "class": "Coleccion",
-    "settings": [
+    </style>
+    {% schema %}
       {
-        "type": "text",
-        "id": "text-icons",
-        "label": "Text"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "image_picker",
-        "name": "Coleccion",
-        "settings": [
+        "name": "Coleccion", "class": "Coleccion", "settings": [
           {
-            "type": "image_picker",
-            "id": "Coleccion",
-            "label": "Coleccion"
-          }, {
-            "type": "text",
-            "id": "TituloC",
-            "label": "Titulo Colección",
-            "default": "Nombre"
-          },
+            "type": "text", "id": "text-icons", "label": "Text"}
+        ], "blocks": [
           {
-            "type": "url",
-            "id": "link-collection",
-            "label": "Link"
+            "type": "image_picker", "name": "Coleccion", "settings": [
+              {
+                "type": "image_picker", "id": "Coleccion", "label": "Coleccion"}, {
+                "type": "text", "id": "TituloC", "label": "Titulo Colección", "default": "Nombre"}, {
+                "type": "url", "id": "link-collection", "label": "Link"}
+            ]
+          }
+        ], "presets": [
+          {
+            "name": "Coleccion", "blocks": []
           }
         ]
       }
-    ],
-    "presets": [
-      {
-        "name": "Coleccion",
-        "blocks": []
-      }
-    ]
-  }
-{% endschema %}
+    {% endschema %}
